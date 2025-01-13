@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "sphinx"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sample_project"
+version = "0.1.0"
+description = "A Django project with Sphinx documentation"
+authors = [{ name = "duong-dsg", email = "nttduong1@tma.com.vn" }]
+license = { text = "MIT" }
+dependencies = [
+    "django",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-autodoc-typehints"
+]
+
+[tool.sphinx]
+source-dir = "docs"
+build-dir = "docs/_build"
+theme = "sphinx_rtd_theme"

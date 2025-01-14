@@ -1,9 +1,9 @@
-.. sample_project documentation master file, created by
+.. mewo_project documentation master file, created by
    sphinx-quickstart on Mon Jan 13 15:09:19 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-sample_project documentation
+mewo_project documentation
 ============================
 
 Add your content using ``reStructuredText`` syntax. See the
